@@ -1,0 +1,641 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>Métricas de Usabilidade</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-style:italic;}
+h5
+	{mso-style-link:"Heading 5 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#243F60;
+	font-weight:normal;}
+h6
+	{mso-style-link:"Heading 6 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#243F60;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Heading 7 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Heading 8 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Heading 9 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Cambria","serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Subtitle Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	letter-spacing:.75pt;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Quote Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:black;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"Intense Quote Char";
+	margin-top:10.0pt;
+	margin-right:46.8pt;
+	margin-bottom:14.0pt;
+	margin-left:46.8pt;
+	line-height:115%;
+	border:none;
+	padding:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleEmphasis
+	{color:gray;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleReference
+	{font-variant:small-caps;
+	color:#C0504D;
+	text-decoration:underline;}
+span.MsoIntenseReference
+	{font-variant:small-caps;
+	color:#C0504D;
+	letter-spacing:.25pt;
+	font-weight:bold;
+	text-decoration:underline;}
+span.MsoBookTitle
+	{font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-link:"Heading 5";
+	font-family:"Cambria","serif";
+	color:#243F60;}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-link:"Heading 6";
+	font-family:"Cambria","serif";
+	color:#243F60;
+	font-style:italic;}
+span.Heading7Char
+	{mso-style-name:"Heading 7 Char";
+	mso-style-link:"Heading 7";
+	font-family:"Cambria","serif";
+	color:#404040;
+	font-style:italic;}
+span.Heading8Char
+	{mso-style-name:"Heading 8 Char";
+	mso-style-link:"Heading 8";
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+span.Heading9Char
+	{mso-style-name:"Heading 9 Char";
+	mso-style-link:"Heading 9";
+	font-family:"Cambria","serif";
+	color:#404040;
+	font-style:italic;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+span.SubtitleChar
+	{mso-style-name:"Subtitle Char";
+	mso-style-link:Subtitle;
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	letter-spacing:.75pt;
+	font-style:italic;}
+span.QuoteChar
+	{mso-style-name:"Quote Char";
+	mso-style-link:Quote;
+	color:black;
+	font-style:italic;}
+span.IntenseQuoteChar
+	{mso-style-name:"Intense Quote Char";
+	mso-style-link:"Intense Quote";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=PT link=blue vlink=purple>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'><span style='font-size:10.0pt;
+line-height:115%'>USABILIDADE 2008/2009<br>
+</span><span style='font-family:"Arial","sans-serif"'>Grupo Aristides/Teixeira</span><span
+style='font-size:18.0pt;line-height:115%'><br>
+</span><strong><span style='font-size:18.0pt;line-height:115%;font-family:"Cambria","serif";
+font-weight:normal'>Projecto de Usabilidade</span></strong></h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="80%"
+ style='width:80.0%;background:#DDDDDD'>
+ <tr>
+  <td style='background:black;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><strong><span style='font-size:18.0pt;line-height:115%;
+  font-family:"Calibri","sans-serif";color:yellow'>Métricas de Usabilidade</span></strong></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>As Métricas de Usabilidade constituem uma base aos métodos /
+critérios de avaliação dos testes de cenários de interacção com utilizadores
+reais. Sustentam-se em estudos empíricos baseados no comportamento humano.</p>
+
+<p class=MsoNormal>Eficácia (objectivos da tarefa atingidos), Eficiência
+(características positivas como tempo de desempenho), segurança e comodidade,
+Utilidade (pertinência funcionalidades práticas), Memorização e Aprendizagem
+facilitada, a qualidade da experiencia (o sentimento final do utilizador), são
+alguns dos aspectos quantitativos e qualitativos que devem ser auscultados e
+medidos. </p>
+
+<h1>Tempos médios esperados para a realização das tarefas</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Grupo de utilizadores: Alunos</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Objectivos - <b>Inscrever</b> nos Turnos Práticos</p>
+
+<p class=MsoNormal><b>Tempo Dispendido:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>30s - Aluno
+Consulta Horário do 1º e 2º ano (ambos 2º semestre) e compara-os</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>40s - Aluno
+Inscreve-se nos turnos práticos </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>10s - Aluno
+Contacta o apoio técnico </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>30s - Aluno
+Conclui inscrições</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><b>Número de erros:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>2 - Aluno
+Consulta Horário do 1º e 2º ano (ambos 2º semestre) e compara-os</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>3 - Aluno
+Inscreve-se nos turnos práticos </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 - Aluno
+Contacta o apoio técnico </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 - Aluno
+Conclui inscrições</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Número de cliques:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>6 - Aluno
+Consulta Horário do 1º e 2º ano (ambos 2º semestre), compara-os</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>6 - Aluno
+Inscreve-se nos turnos práticos </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>4 - Aluno
+Contacta o apoio técnico </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>5 - Aluno
+Conclui inscrições</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><b>Satisfação:</b></p>
+
+<p class=MsoNormal>Bom de comparar. Fácil inscrever. Navegação eficiente e
+agradável. Fácil de memorizar.</p>
+
+<h1>Grupo de utilizadores: Professores</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Objectivo - <b>Colocar</b> Pauta das Notas Online</p>
+
+<p class=MsoNormal><b>Tempo Dispendido:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>40s -
+Colocação de Notas On-line </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>5s - Receber
+notificação de aluno </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>10s -
+Contacto de Professor das Aulas Práticas </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>30s -
+Rectificar de Pauta das notas </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Número de erros:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>5 -
+Colocação de Notas On-line </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 - Receber
+notificação de aluno </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 - Contacto
+de Professor das Aulas Práticas </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>1 -
+Rectificar de Pauta das notas </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Número de cliques:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>7 -
+Colocação de Notas On-line </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>2 - Receber
+notificação de aluno </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>4 - Contacto
+de Professor das Aulas Práticas </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>6 -
+Rectificar de Pauta das notas </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><b>Satisfação:</b></p>
+
+<p class=MsoNormal>Prático de usar. Fácil contactar outros professores. Fácil
+de editar pautas. Navegação eficiente e agradável. Fácil de memorizar.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Grupo de utilizadores: Candidatos a Alunos</h1>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal>Objectivo: <b>Consultar</b> Informações Sobre Curso de TDM</p>
+
+<p class=MsoNormal><b>Tempo Dispendido:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>15s –
+Candidato consulta Plano Curricular </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>15s -
+Candidato consulta Galeria </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>15s -
+Candidato consulta média de entrada</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Número de erros:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>1 –
+Candidato consulta Plano Curricular </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 -
+Candidato consulta Galeria </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>0 -
+Candidato consulta média de entrada</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Número de cliques:</b></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>4 –
+Candidato consulta Plano Curricular </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>3 -
+Candidato consulta Galeria </span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>4 -
+Candidato consulta média de entrada</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Satisfação:</b></p>
+
+<p class=MsoNormal>Fácil encontrar informação. Informação bem organizada. Navegação
+eficiente e agradável. Fácil de memorizar.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Veremos no capítulo seguinte os vários cenários que
+contextualizam estes “ensaios”, tendo sempre em pano de fundo a detecção de falhas
+e o modo de as contornar num fluxo iterativo de apuramento. Os dois primeiros <a
+href="cenários%20.html">cenários</a> (Cenário do problema – Cenário de
+Actividades) situam-se a um nível prospectivo (que
+problemas/tarefas/actividades). O terceiro e último cenário (Cenário de
+Interacção) <i>coloca</i> o utilizador já a manipular objectos da interface que
+simulam o sistema.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><a
+href="../index.html">Voltar aos Detalhes do Projecto</a></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

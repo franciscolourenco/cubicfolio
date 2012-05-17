@@ -1,0 +1,47 @@
+﻿cubicfolio_cover.swf Movie Report
+----------------------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+       630    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-02-25T15:25:28+01:00</xmp:CreateDate> <xmp:MetadataDate>2012-05-17T21:01:23+01:00</xmp:MetadataDate> <xmp:ModifyDate>2012-05-17T21:01:23+01:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:F77F1174072068118083BDE4257858E1</stRef:instanceID> <stRef:documentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</stRef:documentID> <stRef:originalDocumentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:939B8C470F2068118083BDE4257858E1</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:939B8C470F2068118083BDE4257858E1</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1            727            727    cover
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Szene 1              0             0                     0
+
+Symbol              Shape Bytes    Text Bytes    ActionScript Bytes
+----------------    -----------    ----------    ------------------
+_piecemaker                   0             0                     0
+aral                          0             0                     0
+about                         0             0                     0
+twitterButton                 0             0                     0
+skypeButton                   0             0                     0
+mailButton                    0             0                     0
+facebookButton                0             0                     0
+cover                        68             0                     0
+autoplayActive                0             0                     0
+autoplayInactive              0             0                     0
+autoplayMC                    0             0                     0
+stopIcon                      0             0                     0
+playIcon                      0             0                     0
+emptyMovieClip                0             0                     0
+closeButton                   0             0                     0
+contactButton                 0             0                     0
+infoButton                    0             0                     0
+nextButton                    0             0                     0
+nextButton copy               0             0                     0
+preloader                     0             0                     0
+shadow                        0             0                     0
+shadow copy                   0             0                     0
+textMC                        0             0                     0
+Text                          0             0                     0
+
+
+
+

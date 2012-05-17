@@ -1,0 +1,65 @@
+﻿cubicfolio.swf Movie Report
+----------------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+       869    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-02-25T15:25:28+01:00</xmp:CreateDate> <xmp:MetadataDate>2012-05-17T21:38:01+01:00</xmp:MetadataDate> <xmp:ModifyDate>2012-05-17T21:38:01+01:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:F77F1174072068118083BDE4257858E1</stRef:instanceID> <stRef:documentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</stRef:documentID> <stRef:originalDocumentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:57CE7424132068118083BDE4257858E1</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:57CE7424132068118083BDE4257858E1</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:430E31F91A22DF11B7EBDC7EF778EEB0</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1           7366           7366    Szene 1
+      2          52748          60114     (AS 3.0 Classes Export Frame)
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Szene 1              0             0                 28945
+
+Symbol              Shape Bytes    Text Bytes    ActionScript Bytes
+----------------    -----------    ----------    ------------------
+_piecemaker                   0             0                     0
+aral                        341             0                     0
+about                       281           715                     0
+twitterButton                 0             0                     0
+skypeButton                   0             0                     0
+mailButton                    0             0                     0
+facebookButton                0             0                     0
+cover                        94             0                     0
+autoplayActive               75             0                     0
+autoplayInactive            113             0                     0
+autoplayMC                    0             0                     0
+stopIcon                     63             0                     0
+playIcon                     43             0                     0
+emptyMovieClip                0             0                     0
+closeButton                 296             0                     0
+contactButton               288             0                     0
+infoButton                  280             0                     0
+nextButton                  264             0                     0
+nextButton copy               0             0                     0
+preloader                     0             0                     0
+shadow                        0             0                     0
+shadow copy                  39             0                     0
+textMC                        0            36                     0
+Text                       3538             0                     0
+
+Font Name              Bytes         Characters
+-------------------    ----------    ----------
+HelveticaNeue-Light         11490     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ´éˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+              2351    Szene 1:Frame 1
+             26594    Szene 1:Frame 2
+
+Bitmap          Compressed    Original      Compression
+------------    ----------    ----------    -----------
+me.jpg                8673        490000    Imported JPEG=102
+twitter.png            623          3600    Lossless
+skype.png              836           960    Lossless
+mail.png               780          3600    Lossless
+facebook.png           457          3600    Lossless
+
+
+
+

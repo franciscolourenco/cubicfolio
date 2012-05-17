@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+	<Settings>
+		<imageWidth>700</imageWidth>
+		<imageHeight>350</imageHeight>
+		<segments>7</segments>
+		<tweenTime>1.2</tweenTime>
+		<tweenDelay>0.1</tweenDelay>
+		<tweenType>easeInOutBack</tweenType>
+		<zDistance>0</zDistance>
+		<expand>20</expand>
+		<innerColor>0x111111</innerColor>
+		<textBackground>0xF1F1F1</textBackground>
+		<shadowDarkness>100</shadowDarkness>
+		<textDistance>25</textDistance>
+		<autoplay>12</autoplay>
+	</Settings>
+	<Image Filename="image1.jpg">
+		<Text>
+
+		</Text>
+	</Image>
+	<Image Filename="image2.jpg">
+		<Text>                   
+			<headline>Crepe Ri</headline>
+			<break>Ӂ</break>
+			<paragraph>Logo and graphic material for a portuguse restaurant. Crepe and limonade.</paragraph>
+		</Text>
+	</Image>
+<!-- 	<Image Filename="image3.jpg">
+		<Text>
+			<headline>Flash Widgets</headline>
+			<break>Ӂ</break>    
+			<inline>Dinamic </inline> <a href="http://flashwidgets.site11.com/" target="_blank">ӁwebsiteӁ</a> <inline> that supports the distribution and personalization of small swf widgets that the user can paste in his website/social page.</inline>
+			<paragraph>After personalized, the widgets configuration is stored in a mysql datpiase and then loaded when the widget is displayd on the user website.</paragraph>   
+			<paragraph>It includes a backend that allows the addition and modification of the widgets as well as user permitions managment.</paragraph>
+		</Text>
+	</Image>
+ -->	<Image Filename="image4.jpg">
+		<Text>
+			<headline>Bahnhof</headline>
+			<break>Ӂ</break>    
+			<inline>Multimedia project for a music band from Aurus, Denmark. It includes a </inline><a href="http://mmd3semspring2010.sub.ots.dk/group3/ccs_report.pdf" target="_blank">ӁcomunicationӁ</a> <inline>and a</inline> <a href="http://mmd3semspring2010.sub.ots.dk/group3/b2b_report.pdf" target="_blank">ӁbusinessӁplanӁ</a><inline>, a</inline> <a href="http://bahnhof.sub.ots.dk/bahnhof/bahnhof.html" target="_blank">ӁstreamingӁplatformӁ</a> <inline>for a video, a dinamic website and an iTunes LP that will be available soon.</inline> 
+		   <break>Ӂ</break>
+		 <inline>You can see here some</inline> <a href="http://www.dropbox.com/gallery/4700116/1/Bahnhof?h=06cb45" target="_blank">ӁmockupsӁ</a><inline> and also go to the </inline><a href="http://mmd3semspring2010.sub.ots.dk/group3/" target="_blank">ӁprojectӁpageӁ</a><inline>.</inline>     	   
+			
+			
+		</Text>
+	</Image>
+	<Image Filename="image5.jpg">
+		<Text>
+			<headline>GPShoping</headline>
+			<break>Ӂ</break>
+			<inline>Interaction project for a shoping center in Viseu, Portugal. The aim was to improve the navigation inside the mall. We proposed a remodeling and relocation of the direction signs as well as a device that points the direction like a GPS. Here you can see a </inline> <a href="gpshoping/" target="_blank">ӁvirtualӁprototypeӁ</a><inline>and the</inline><a href="gpshoping/report.pdf" target="_blank">ӁtheӁreport</a><inline>.</inline>
+		</Text>
+	</Image>
+	<Image Filename="image6.jpg">
+		<Text>
+			<headline>Springfield Bag</headline>
+			<break>Ӂ</break>
+			<inline>A</inline> <a href="springfield/bag.jpg" target="_blank">ӁbagӁdesignӁ</a> <inline>for a contest promoted by</inline> <a href="http://www.spf.com/" target="_blank">ӁSpringfield</a><inline>, a spanish fashion brand.</inline><break>Ӂ</break> <inline>It includes an</inline><a href="springfield/argument.pdf" target="_blank">Ӂargument</a><inline>. </inline>
+		</Text>
+	</Image>
+	<Image Filename="image7.jpg">
+		<Text>
+			<headline>Nave de Exposicoes</headline>
+			<break>Ӂ</break>
+			<paragraph>3D modeling and animation of a multi purpose pavilion/shoping center in Lousa, Portugal.</paragraph>
+			<paragraph>The video will be available soon.</paragraph>
+		</Text>
+	</Image>     
+	<Image Filename="image8.jpg">
+		<Text>
+			<headline>Baby Simulator</headline>
+			<break>Ӂ</break>                        	  
+			<paragraph>A prototype of a system to train doctors doing dificult procedures in babys like infant CPR, lunges liquid exctraction, etc.. </paragraph>
+			<inline>It was built using a plastic baby doll,</inline> <a href="http://www.arduino.cc/" target="_blank">ӁarduinoӁ</a> <inline>usb interface, multiple sensors and a flash application.</inline>           
+			  <break>Ӂ</break>  
+			<inline>This project was developed during the </inline>
+			  <a href="http://www.innoevent.dk/" target="_blank">ӁInno ӁEvent Ӂ2010</a>
+			<inline>, Odense Denmark, for the Odense Maternity.</inline> 
+
+		</Text>
+	</Image>
+	<Image Filename="image9.jpg">
+		<Text>
+			<headline>Wello</headline>
+			<break>Ӂ</break>
+			<paragraph>Image, marketing and publicity project for a social comunity/game directioned to teenagers.</paragraph>  
+			<inline>It includes the study and conception of </inline>
+			 <a href="wello/considerations.jpg" target="_blank">ӁtheӁname</a>
+			<inline>, the design of </inline>
+			  <a href="wello/specifications.jpg" target="_blank">ӁtheӁlogo</a>
+			<inline>, multiple </inline>
+			  <a href="wello/supports.swf" target="_blank">ӁsuportӁformats</a>
+	              		               	<inline>, an  </inline>          
+			 <a href="wello/outdoor.png" target="_blank">ӁoutdoorӁ</a>  
+			                               	<inline>, a  </inline>   
+			<a href="wello/comunicationplan.pdf" target="_blank">ӁcomunicationӁplanӁ</a>
+			<inline> and some banners:</inline>    
+         
+                  
+		<a href="wello/animations/atomic.swf" target="_blank">ӁAtomic</a>
+	                          	<inline>,Ӂ</inline>  
+		<a href="wello/animations/blur.swf" target="_blank">Blur</a>
+                                      	<inline>,Ӂ</inline>    
+		<a href="wello/animations/simple.swf" target="_blank">Simlple</a> 
+                                         	<inline>,Ӂ</inline>  
+		<a href="wello/animations/communicate.swf" target="_blank">Communicate</a>
+                                            	<inline>ӁandӁ</inline>  
+		<a href="wello/animations/play.swf" target="_blank">Play</a>  
+		  <inline>.</inline>  
+		</Text>
+	</Image>
+	<Image Filename="image10.jpg">
+		<Text>
+			<headline>Usability Project</headline>
+			<break>Ӂ</break>
+			<paragraph>An usability study and improvment proposal for the website of the IT Department of the Superior School of Technologies in Viseu, Portugal.</paragraph>
+			<inline>It includes, questionaries, task analisys, storyboards, paper prototyping, user testing etc... Everything can be found on the </inline>
+			  <a href="usability/" target="_blank">ӁprojectӁpage</a>
+			<inline>.</inline>
+		</Text>
+	</Image>
+</Piecemaker>

@@ -1,0 +1,244 @@
+  body {
+    margin: 0px 0px 0px 0px;
+    border: 0;
+    background: #FFF;
+    }
+  table {
+    border-collapse: collapse;    /**/
+    border: 0;
+    }
+  td {
+    padding: 0px 0px 0px 0px;
+    }
+  #Cuestionario {
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    width: 100%;
+    }
+  #Cuestionario A {
+    color: #2883D6;
+    }
+/*  #Cuestionario * {
+    border: 1px solid #87CEFA;
+    }                            */
+  #Cuestionario .Boton {
+/*     padding: 1px 0px 1px 0px;
+   color: #A18C5D;
+    background: #EFECE7;
+    font-size: 75%;   */
+    }
+  #Cuestionario .Boton:hover {
+   /* color: #0066CC;*/
+    }
+/*  #Cuestionario * {
+    border: 1px solid #87CEFA;
+    }                            */
+  #Cuestionario .Titulo1 {
+    padding: 0.5em 2em 0.5em 2em;
+    /*background: #CBBF97;*/
+    background: #1870AD;
+    color: #FFFFFF;
+    width: 100%;
+    }
+  #Cuestionario .Titulo1 span {
+    font-weight: bold;
+    font-size: 90%;
+    }
+  #Cuestionario .Titulo2 {
+    padding: 0em 2em 0.7em 2em;
+    color: #2883D6;
+    width: 100%;
+    }
+  #Cuestionario .Titulo2 span {
+    font-size: 90%;
+    font-weight: bold;
+    }
+  #Cuestionario .Titulo3 {
+    padding: 0em 2em 0.7em 2em;
+    width: 100%;
+    }
+  #Cuestionario .Titulo3 span label{
+    font-size: 70%;
+    }
+    
+  #Cuestionario .TituloMarquesina {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    /*background: #CBBF97;*/
+    background: #FFFFFF;
+    font: bold 0.7em Verdana,Helvetica,Arial,sans-serif;
+    color: #FF0000;
+    width: 100%;
+    font-size: 100%;
+    }
+
+
+  #Cuestionario .CuerpoPaginaEncuesta {
+    padding: 0em 2em 0em 2em;
+    width: 100%;
+    }
+  #Cuestionario .CuerpoPaginaEncuesta .Espacio {
+    padding: 0em 0em 0em 0em;
+    }
+  #Cuestionario .TablaRespuesta .Identado {
+    padding-left: 1.5em;
+    padding-top: 0em;
+    }
+  #Cuestionario .LaPregunta {
+    padding-top: 1em;
+    width: 100%;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta {
+    width: 100%;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta * {
+  	font-size: 70%;
+    font-weight: bold;
+    }
+  #Cuestionario .LaPregunta .ImagenPregunta {
+     border-top: 1px outset #000000;
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta .OrdenPregunta {
+    padding-right: 1em;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta .DescripcionPregunta {
+    padding-left: 0em;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta .DescripcionPreguntaSoloTexto {
+    padding-left: 0em;
+    font-weight: normal;
+    }
+  #Cuestionario .LaPregunta .TituloPregunta .MsjRequerido {
+	font-size: 60%;
+    font-weight: normal;
+    margin-left: 1em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta {
+    padding-top: 0.7em;
+    padding-left: 1.5em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta p, span, label, select {
+	font-size: 70%;
+    font-weight: normal;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .DescripcionFila {
+    padding-right: 0.5em;
+    text-align: left;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .DescripcionColumna {
+    text-align: Center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .FilaMatriz {
+    padding: 10px 10px 10px 10px;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .FilaMatrizP {
+    padding: 10px 10px 10px 10px;
+    background: #EFECE7;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .FilaMatrizI {
+    padding: 10px 10px 10px 10px;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTablaMatriz .RadioButtonListMatriz {
+    text-align: center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .MatrizDropDownList {
+    padding: 5px 5px 5px 0px;
+    text-align: Center;
+    }
+/*  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList label {
+    vertical-align: 0.2em;
+    } */
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .CeldaImagenVertical {
+    padding-top: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .CeldaTextoVertical {
+    width: auto;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .CeldaTextoVertical label {
+    vertical-align: middle;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .CeldaFoto {
+    padding-top: 0.2em;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .CeldaTextoSuelto {
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+    text-align: center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .TextoHorizontal {
+    padding-right: 0.8em;
+	font-size: 100%;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .TextoHorizontal label {
+    vertical-align: middle;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .RadioButtonList .Identado {
+    padding-left: 0em;
+    padding-top: 0em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CajaTextoLibre {
+    width: 25em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CajaTextoFecha {
+    width: 10em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CajaTextoHora {
+    width: 5em;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaCajaTextoFechaHora {
+    text-align: center;
+    }
+  #Cuestionario .LaPregunta .CeldaTablaRespuesta .CeldaTituloFechaHora {
+    padding: 0px 5px 5px 5px;
+    text-align: center;
+    }
+  #Cuestionario .BarraBotones {
+    /*padding: 1em 2em 0em 0em;*/
+    padding: 0.2em 2em 0.6em 0em;
+    text-align: right;
+    }
+  #Cuestionario .BarraBotonesIzq {
+    padding: 0em 0.3em 0em 0em;
+    text-align: right;
+    }
+  #Cuestionario .BarraBotonesDer {
+    padding: 0em 2em 0em 0em;
+    text-align: right;
+    }
+  #Cuestionario .BarraNumPagina {
+    padding: 0em 2em 0.3em 2em;
+    text-align: center;
+    width: 100%;
+    }
+  #Cuestionario #BarraPie {
+    text-align: center;
+    }
+  #Cuestionario #FirmaEncuestaFacil {
+    padding: 0em 0em 0em 0em;
+	font-size: 70%;
+    color: #ADADAD;
+    text-align: center;
+    }
+  #Cuestionario .Login {
+    padding: 2em 0em 2em 0em;
+/*    text-align: center;         */
+    }
+  #Cuestionario .Login #Mensaje {
+    padding: 2em 0em 0em 0em;
+    color: red;
+	font-size: 70%;
+    text-align: center;         
+    }
+
+  #Cuestionario .PoweredBy {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 3px;
+    }
